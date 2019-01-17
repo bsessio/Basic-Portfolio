@@ -1,0 +1,60 @@
+body {
+    color: #777;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    background-image: url(assets/images/circuit.png);
+}
+
+section {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3, h4, h5 {
+    font-family: Arial, Helvetica neue, Helvetica, sans-serif;
+    color: teal;
+}
+.greenbox {
+    float: left;
+    text-align: center;
+    display: block;
+    width: 7em;
+    padding: 1em;
+    background-color: teal;
+    color: #fff;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    padding: 3em;
+    width: 960px;
+}
+
+main {
+    clear: both;
+    background-color: #fff;
+    border-color: #ddd;
+    width: 960px;
+}
+
+.portfolio {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #666;
+    text-align: center;
+    color: silver;
+    padding-top: 1em;
+    border-top: 0.5em;
+    border-top-style: solid;
+    border-color: teal;
+    clear: both;
+}
