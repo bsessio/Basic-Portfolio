@@ -20,7 +20,7 @@ h3,
 h4,
 h5 {
   font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
-  color: #4aaaa5;
+  color: #aa4a4a;
   padding: 0;
   margin: 0;
 }
@@ -31,7 +31,7 @@ h5 {
   text-align: center;
   width: 8em;
   padding: 1em;
-  background-color: #4aaaa5;
+  background-color: #aa4a4a;
   color: #fff;
   /* left: 352px; */
 }
@@ -40,7 +40,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #ffffff;
+  background-color: #1b1b1b;
   border-bottom: 2px solid #cccccc;
   z-index: 1;
 }
@@ -48,7 +48,7 @@ header {
 nav {
   text-align: right;
   padding-top: 2em;
-  color: #f6f6f6;
+  color: #3b3b3b;
   font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
 }
 
@@ -67,14 +67,20 @@ main {
 }
 
 .portfolio {
+  display: block;
   float: left;
   position: relative;
-  width: 33.33%;
-  margin: 0 40px 55px 0;
+  width: 31%;
+  margin: 0 20px 20px 0;
+}
+
+.hide {
+  display: none;
 }
 
 .portfolio img {
   width: 100%;
+  border: 1px solid #666;
 }
 
 footer {
@@ -87,7 +93,7 @@ footer {
   padding: 1.5em 0 0.4em;
   border-top: 0.5em;
   border-top-style: solid;
-  border-color: #4aaaa5;
+  border-color: #aa4a4a;
   clear: both;
   margin: 0;
   z-index: 1;
@@ -101,7 +107,7 @@ hr {
   position: absolute;
   bottom: 10px;
   right: 0px;
-  background-color: #4aaaa5;
+  background-color: #aa4a4a;
   color: #fff;
   width: 100%;
   text-align: center;
@@ -129,7 +135,7 @@ label {
 .submit {
     border: none;
     padding: 10px 20px;
-    background-color: #4aaaa5;
+    background-color: #aa4a4a;
     color: #fff;
     margin: 10px 0 0 0;
     font-size: 1em;
@@ -174,8 +180,8 @@ nav a:hover {
 }
 
 button:hover {
-    color: #4aaaa5;
-    background-color:#fff;
+    color: #fff;
+    background-color:#3b3b3b;
     border: 1px solid #777;
     padding: 9px 19px;
 }
