@@ -169,9 +169,9 @@ textarea {
     height: auto;
 }
 
-a:hover {
+.portImages:hover {
     color: steelblue;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 nav a:hover {
